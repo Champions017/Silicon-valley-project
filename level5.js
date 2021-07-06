@@ -1,7 +1,7 @@
 function level5F(){
     background(bg5)
     PRB.x = camera.x + 430
-    PRB.y = camera.y - 120
+    PRB.y = camera.y - 100
 
     litterB.x = PRB.x + 160
     litterB.y = PRB.y - 10
