@@ -4,17 +4,17 @@ function level5F(){
     PRB.y = camera.y - 100
 
     litterB.x = PRB.x + 160
-    litterB.y = PRB.y - 10
+    litterB.y = PRB.y - 3
     
     plantB.x = PRB.x + 80
-    plantB.y = PRB.y
+    plantB.y = PRB.y + 7
     plantB.scale = 0.5
 
     Bmedal.x = PRB.x - 80
-    Bmedal.y = PRB.y
+    Bmedal.y = PRB.y + 7
 
     Gmedal.x = PRB.x - 160
-    Gmedal.y = PRB.y
+    Gmedal.y = PRB.y + 7
     
         if(trash.x > trashcan.x - 50 && trash.x < trashcan.x + 50){
             trash.velocityY = trash.velocityY + 4
