@@ -14,7 +14,7 @@ function level5F(){
     Bmedal.y = PRB.y + 7
 
     Gmedal.x = PRB.x - 160
-    Gmedal.y = PRB.y + 7
+    Gmedal.y = PRB.y + 12
     
         if(trash.x > trashcan.x - 50 && trash.x < trashcan.x + 50){
             trash.velocityY = trash.velocityY + 4
