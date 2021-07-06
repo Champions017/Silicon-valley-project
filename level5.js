@@ -1,15 +1,14 @@
 function level5F(){
     background(bg5)
     PRB.x = camera.x + 430
-    PRB.y = camera.y - 250
+    PRB.y = camera.y - 120
 
     litterB.x = PRB.x + 160
     litterB.y = PRB.y - 10
-    litterB.changeAnimation("color")
     
-    plantB.changeAnimation("color")
     plantB.x = PRB.x + 80
     plantB.y = PRB.y
+    plantB.scale = 0.5
 
     Bmedal.x = PRB.x - 80
     Bmedal.y = PRB.y
