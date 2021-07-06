@@ -4,7 +4,7 @@ function level5F(){
     PRB.y = camera.y - 100
 
     litterB.x = PRB.x + 160
-    litterB.y = PRB.y - 3
+    litterB.y = PRB.y -3
     
     plantB.x = PRB.x + 80
     plantB.y = PRB.y + 7
